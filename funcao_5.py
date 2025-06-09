@@ -1,12 +1,12 @@
-def quantidade_total_estoque(f):
+def quantidade_total_estoque(d):
     
-    for f in estoque_produtos.values():
-        f += f 
-        return print (f'O total de produtos no estoque é de {total_estoque}.')
+    for items, values in d.items():
+        #quantidade_itens_valor = quantidade_itens.count()
+        return print (items)
 
-    #início do algoritmo
+#início do algoritmo
+estoque_produtos = {'Macarrão': [8.99, 10.20, 10], 
+                    'Arroz': [5, 7, 9.99]}
+#total_estoque = 0
 
-estoque_produtos = {'Macarrão': [8.99, 10.20, 10]}
-total_estoque = 0
-
-quantidade_total_estoque(total_estoque)
+quantidade_total_estoque(estoque_produtos)
