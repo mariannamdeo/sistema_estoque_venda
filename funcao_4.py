@@ -1,5 +1,5 @@
-def relatorios(d):
-    return print (f'----RELATÕRIO DE ESTOQUE ----\n{d}\n ----FIM DO RELATÕRIO----')
+def relatorios(e):
+    return print (f'----RELATóRIO DE ESTOQUE ----\n{e}\n ----FIM DO RELATóRIO----')
 
 #início do algoritmo
 
