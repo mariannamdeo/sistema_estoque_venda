@@ -1,2 +1,2 @@
 # sistema_estoque_venda
-Algoritmos relativos ao exercício entregue no curso do SENAC de análise de dados. 
+exercício de lógica utilizando estruturas de dados entregue no curso do SENAC de análise de dados. 
